@@ -1,0 +1,2 @@
+Tutorial 1 Example
+This program shows an example of using the on-chip Timer, A/D converter, UART, LCD, and Digital I/O.

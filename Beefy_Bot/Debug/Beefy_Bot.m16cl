@@ -1,0 +1,17 @@
+-L "nc30lib"
+-G
+-MS
+-O "C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\Beefy_Bot.x30"
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\ncrt0.r30"
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\adc.r30"
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\clocks.r30"
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\Interrupts.r30"
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\ints.r30"
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\LCD.r30"
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\led.r30"
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\main.r30"
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\motors.r30"
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\oldcode.r30"
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\ports.r30"
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\shapes.r30"
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\timers.r30"

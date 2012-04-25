@@ -1,0 +1,7 @@
+-I"C:\Users\Alex\HEWWorkSpace\Beefy_Bot"
+-I"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot"
+-I"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\..\Common"
+-c
+-finfo
+-dir "C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug"
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\menus.c"

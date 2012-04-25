@@ -1,0 +1,33 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.2" 
+[CURRENT_PROJECT]
+"Beefy_Bot" 
+[GENERAL_DATA]
+[BREAKPOINTS]
+[OPEN_WORKSPACE_FILES]
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\extern.h" 
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Interrupts.c" 
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\ints.c" 
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\main.c" 
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\motors.c" 
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\oldcode.c" 
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\proto.h" 
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\QSKDefines.h" 
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\sect30.inc" 
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\timers.c" 
+[WORKSPACE_FILE_STATES]
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Interrupts.c" 100 100 1054 274 0 0 
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\QSKDefines.h" 75 75 1054 274 0 6 
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\extern.h" 100 100 1054 274 0 9 
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\ints.c" 0 0 1054 274 0 1 
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\main.c" -8 -30 1170 412 1 2 
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\motors.c" 25 25 1054 274 0 4 
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\oldcode.c" 100 100 1054 274 0 8 
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\proto.h" 50 50 1054 274 0 5 
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\sect30.inc" 100 100 1054 274 0 7 
+"C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\timers.c" 0 0 1170 412 0 3 
+[LOADED_PROJECTS]
+"Beefy_Bot" 
+[END]
