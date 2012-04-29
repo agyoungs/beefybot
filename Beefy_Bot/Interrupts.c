@@ -108,28 +108,29 @@ void RTCInterrupt(void)
 #pragma INTERRUPT TimerB0Interrupt
 void TimerB0Interrupt(void)
 //-----------------------------------------------------------------------------------------------------
-//	Purpose: To toggle a pin every timer cycle (currently configured to 5 ms)
+//	Purpose: To increment the ints for lap time, end time, and checking the line 
+//			(currently configured to 5 ms)
 // 	Rev: 1.0
 //	Compiler: HEW Version 4.05.01.001
 //	Author:	Alex Youngs
 //	Date: 3/9/2012
 //-----------------------------------------------------------------------------------------------------
 {
-	wait_time += ON;
-	fn_sec += ON;
+	wait_time += ON;	//increments the calibration timer
+	fn_sec += ON;		//increments the lap timer
+	check = TRUE;  		//sets the flag for the car to check the line
 }
 
 #pragma INTERRUPT TimerB1Interrupt
 void TimerB1Interrupt(void)
 //-----------------------------------------------------------------------------------------------------
-//	Purpose: To toggle a pin every timer cycle (currently configured to 5 ms)
-// 	Rev: 1.0
+//	Purpose: To increment an int for use in PWM (currently configured to .5 ms)
+// 	Rev: 1.1
 //	Compiler: HEW Version 4.05.01.001
 //	Author:	Alex Youngs
 //	Date: 4/23/2012
 //-----------------------------------------------------------------------------------------------------
 {
-	//p9_3^=ON;
 	delay_timer += ON;
 }
 
@@ -154,7 +155,7 @@ void switch1_isr(void)
 //-----------------------------------------------------------------------------------------------------
 {
 		LED0 ^= ON;
-		switch_count += DECREMENT;
+		switch_count += ON;
 }
 
 #pragma INTERRUPT switch2_isr
@@ -168,7 +169,7 @@ void switch2_isr(void)
 //-----------------------------------------------------------------------------------------------------
 {
 		LED2 ^= ON;
-		switch_count += DECREMENT;
+		switch_count += ON;
 }
 
 #pragma INTERRUPT switch3_isr
@@ -182,18 +183,29 @@ void switch3_isr(void)
 //-----------------------------------------------------------------------------------------------------
 {
 		LED1 ^= ON;
-		switch_count += DECREMENT;
+		switch_count += ON;
 }
 
 #pragma INTERRUPT uart2_receive_isr
 void uart2_receive_isr(void)
+//-----------------------------------------------------------------------------------------------------
+//	Purpose: Not used for line follwoing
+// 	Rev: 1.0
+//	Compiler: HEW Version 4.05.01.001
+//	Author:	Alex Youngs
+//	Date: 3/9/2012
+//-----------------------------------------------------------------------------------------------------
 {
-/*	if (r_index == 7) r_index = 0;
-	r_array[r_index] = u2rb;
-	r_index++;*/
 }
 
 #pragma INTERRUPT uart2_transmit_isr
 void uart2_transmit_isr(void)
+//-----------------------------------------------------------------------------------------------------
+//	Purpose: Not used for line following
+// 	Rev: 1.0
+//	Compiler: HEW Version 4.05.01.001
+//	Author:	Alex Youngs
+//	Date: 3/9/2012
+//-----------------------------------------------------------------------------------------------------
 {
 }

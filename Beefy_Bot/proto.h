@@ -1,5 +1,6 @@
 /***********************************************************************/
-/*                                                                     */
+/*  																   */
+/*  Author: Alex Youngs                                                */
 /*  DATE        :Mon, Mar 23, 2009                                     */
 /*																	   */
 /*  DESCRIPTION :  All functions that need prototyping should be       */
@@ -13,15 +14,15 @@
 /***********************************************************************/
 
 
-void A2DInit(void);
-void InitDisplay(char far StartupString1[] );
+//LCD
 void DisplayString(unsigned char position, _far const char * string);
 void LCD_write(unsigned char data_or_ctrl, unsigned char value);
 void DisplayDelay(unsigned long int units);
 void BNSPutch(uint where, char c);
 unsigned char BNSPrintf(uint where, char far * f, ...);
+void InitDisplay(char far StartupString1[] );
 
-//initializations
+//interrupts
 void init_ints(void);
 
 //ports
@@ -38,11 +39,8 @@ void InitPorts_8(void);
 void InitPorts_9(void);
 void InitPorts_10(void);
 
-// Project Specific
-
+//timers
 void TimerInit(void);
-void ADInit(void);
-void LEDDisplay(void);
 
 // motors
 void r_off();
@@ -51,14 +49,8 @@ void r_reverse(void);
 void l_off();
 void l_forward(void);
 void l_reverse(void);
-
-//shapes
-void circle(int times);
-void line(void);
-void ninety_turn(void);
-void rectangle(int times);
+int* PWM(int r_high, int l_high);
 void one_eighty_turn(int times);
-void figure_eight(int times);
 
 //timers
 void TimerB0_Init(void);
@@ -70,15 +62,5 @@ void TimerA4_Start(void);
 
 //adc
 int calibrate(int side);
-
-//Serial
-void InitUART(void);
-void InitUART_0(void);
-void InitUART_2(void);
-
-//menus
-void s_left_menu(void);
-void s_mid_menu(void);
-void s_right_menu(void);
-
-int checkline(int side);
+void ADInit(void);
+int* checkline(void);

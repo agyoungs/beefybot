@@ -171,3 +171,62 @@
 			p_buffer[6]=0;
 			p_buffer[7]=0;
 			*/
+			
+/*
+#define RESISTORS 103
+#define SHAPES 103
+#define SONG 44
+
+#define SHIGH 23
+#define LOW 0
+#define UNDER 22
+#define ABOVE 1
+
+#define SIZE 10
+#define LENGTH 47
+#define LIMIT_A 24
+#define ONE_SEC			200
+*/
+
+//in main
+/*//	InitDisplay("bot");
+//  InitUART();
+*/
+/*//shapes
+void circle(int times);
+void line(void);
+void ninety_turn(void);
+void rectangle(int times);
+
+void figure_eight(int times);
+
+
+//Serial
+void InitUART(void);
+void InitUART_0(void);
+void InitUART_2(void);
+
+//menus
+void s_left_menu(void);
+void s_mid_menu(void);
+void s_right_menu(void);
+*/
+//void A2DInit(void);
+//void InitDisplay(char far StartupString1[] );
+
+//extern volatile char r_array[8];
+//extern volatile int r_index;
+//extern uint A2DValue;
+//extern uint A2DValuePot;
+//extern uint A2DValueTherm;
+//extern uchar A2DProcessed;
+
+//	uchar motor_switch = FALSE;
+//	uchar direction = FORWARD;
+//	uchar direction_change = TRUE;
+//	int swap = OFF;
+
+/*	UART2 Receive
+if (r_index == 7) r_index = 0;
+	r_array[r_index] = u2rb;
+	r_index++;*/

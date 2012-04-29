@@ -11,43 +11,37 @@ c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v544r00\bin\ln30.exe @C:
 
 # LINK FILE INFORMATION
 ncrt0 (C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\ncrt0.r30)
-	Apr 24 20:06:05 2012
+	Apr 29 16:21:57 2012
 
 adc (C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\adc.r30)
-	Apr 24 20:06:02 2012
+	Apr 29 16:21:55 2012
 
 clocks (C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\clocks.r30)
-	Apr 24 20:06:02 2012
+	Apr 29 16:21:55 2012
 
 Interrupts (C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\Interrupts.r30)
-	Apr 24 20:06:01 2012
+	Apr 29 16:21:55 2012
 
 ints (C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\ints.r30)
-	Apr 24 20:06:02 2012
+	Apr 29 16:21:56 2012
 
 LCD (C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\LCD.r30)
-	Apr 24 20:06:02 2012
-
-led (C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\led.r30)
-	Apr 24 20:06:02 2012
+	Apr 29 16:21:55 2012
 
 main (C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\main.r30)
-	Apr 24 20:06:03 2012
+	Apr 29 16:21:56 2012
 
 motors (C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\motors.r30)
-	Apr 24 20:06:03 2012
+	Apr 29 16:21:56 2012
 
 oldcode (C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\oldcode.r30)
-	Apr 24 20:06:03 2012
+	Apr 29 16:21:56 2012
 
 ports (C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\ports.r30)
-	Apr 24 20:06:04 2012
-
-shapes (C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\shapes.r30)
-	Apr 24 20:06:04 2012
+	Apr 29 16:21:56 2012
 
 timers (C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\timers.r30)
-	Apr 24 20:06:04 2012
+	Apr 29 16:21:57 2012
 
 _f8add (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\nc30lib.lib)
 	Nov  8 18:36:40 2007
@@ -101,104 +95,95 @@ bss_SE                           REL DATA    000480 000000 2     ncrt0
 data_SO                          REL DATA    000480 000000       ncrt0
 bss_SO                           REL DATA    000480 000000       ncrt0
 data_NE                          REL DATA    000480 000000 2     ncrt0
-                                 REL DATA    000480 00002A 2     main
-                                 REL DATA    0004AA 000010 2     mdata
-bss_NE                           REL DATA    0004BA 000000 2     ncrt0
-                                 REL DATA    0004BA 000002 2     main
-                                 REL DATA    0004BC 000008 2     mdata
-data_NO                          REL DATA    0004C4 000000       ncrt0
-                                 REL DATA    0004C4 000001       LCD
-                                 REL DATA    0004C5 000001       main
-bss_NO                           REL DATA    0004C6 000000       ncrt0
-stack                            REL DATA    0004C6 000600 2     ncrt0
-heap                             REL DATA    000AC6 000300       ncrt0
+                                 REL DATA    000480 00001E 2     main
+                                 REL DATA    00049E 000010 2     mdata
+bss_NE                           REL DATA    0004AE 000000 2     ncrt0
+                                 REL DATA    0004AE 000008 2     mdata
+data_NO                          REL DATA    0004B6 000000       ncrt0
+                                 REL DATA    0004B6 000001       LCD
+bss_NO                           REL DATA    0004B7 000000       ncrt0
+stack                            REL DATA    0004B8 000600 2     ncrt0
+heap                             REL DATA    000AB8 000300       ncrt0
 rom_NE                           ABS ROMDATA 00F000 000000       ncrt0
 rom_NO                           REL ROMDATA 00F000 000000       ncrt0
 rom_FE                           ABS ROMDATA 0F4000 000000       ncrt0
 rom_FO                           REL ROMDATA 0F4000 000000       ncrt0
-                                 REL ROMDATA 0F4000 000012       LCD
-                                 REL ROMDATA 0F4012 000039       main
-                                 REL ROMDATA 0F404B 000028       motors
-data_SEI                         REL ROMDATA 0F4074 000000 2     ncrt0
-data_SOI                         REL ROMDATA 0F4074 000000       ncrt0
-data_NEI                         REL ROMDATA 0F4074 000000 2     ncrt0
-                                 REL ROMDATA 0F4074 00002A       main
-                                 REL ROMDATA 0F409E 000010       mdata
-data_NOI                         REL ROMDATA 0F40AE 000000       ncrt0
-                                 REL ROMDATA 0F40AE 000001       LCD
-                                 REL ROMDATA 0F40AF 000001       main
-program                          REL CODE    0F40B0 000000 2     ncrt0
-                                 REL CODE    0F40B0 00003C 2     adc
-                                 REL CODE    0F40EC 000044 2     clocks
-                                 REL CODE    0F4130 0000E7 2     Interrupts
-                                 REL CODE    0F4218 000021 2     ints
-                                 REL CODE    0F423A 000800 2     LCD
-                                 REL CODE    0F4A3A 000001 2     led
-                                 REL CODE    0F4A3C 00021C 2     main
-                                 REL CODE    0F4C58 0001F5 2     motors
-                                 REL CODE    0F4E4E 000287 2     ports
-                                 REL CODE    0F50D6 000144 2     shapes
-                                 REL CODE    0F521A 000087 2     timers
-                                 REL CODE    0F52A2 00091B 2     _f8add
-                                 REL CODE    0F5BBE 0000A7 2     _f8ge
-                                 REL CODE    0F5C66 0002C7 2     _f8mul
-                                 REL CODE    0F5F2E 000028 2     _f8sub
-                                 REL CODE    0F5F56 000025 2     _f8toi4u
-                                 REL CODE    0F5F7C 000111 2     _ftol
-                                 REL CODE    0F608E 00004D 2     _i4divu
-                                 REL CODE    0F60DC 00004B 2     _i4modu
-                                 REL CODE    0F6128 00001C 2     _i4mulu
-                                 REL CODE    0F6144 000022 2     _i4utof8
-                                 REL CODE    0F6166 0000D4 2     _ltof
-                                 REL CODE    0F623A 000054 2     _f8ltor
-                                 REL CODE    0F628E 000041 2     _f8rtol
-interrupt                        REL CODE    0F62D0 000000 2     ncrt0
-                                 REL CODE    0F62D0 0000A7       ncrt0
-program_S                        REL CODE    0F6378 000000 2     ncrt0
+                                 REL ROMDATA 0F4000 000028       adc
+                                 REL ROMDATA 0F4028 000012       LCD
+                                 REL ROMDATA 0F403A 000038       main
+data_SEI                         REL ROMDATA 0F4072 000000 2     ncrt0
+data_SOI                         REL ROMDATA 0F4072 000000       ncrt0
+data_NEI                         REL ROMDATA 0F4072 000000 2     ncrt0
+                                 REL ROMDATA 0F4072 00001E       main
+                                 REL ROMDATA 0F4090 000010       mdata
+data_NOI                         REL ROMDATA 0F40A0 000000       ncrt0
+                                 REL ROMDATA 0F40A0 000001       LCD
+program                          REL CODE    0F40A2 000000 2     ncrt0
+                                 REL CODE    0F40A2 00021E 2     adc
+                                 REL CODE    0F42C0 000044 2     clocks
+                                 REL CODE    0F4304 0000EB 2     Interrupts
+                                 REL CODE    0F43F0 000021 2     ints
+                                 REL CODE    0F4412 000800 2     LCD
+                                 REL CODE    0F4C12 0001C2 2     main
+                                 REL CODE    0F4DD4 000120 2     motors
+                                 REL CODE    0F4EF4 000287 2     ports
+                                 REL CODE    0F517C 000087 2     timers
+                                 REL CODE    0F5204 00091B 2     _f8add
+                                 REL CODE    0F5B20 0000A7 2     _f8ge
+                                 REL CODE    0F5BC8 0002C7 2     _f8mul
+                                 REL CODE    0F5E90 000028 2     _f8sub
+                                 REL CODE    0F5EB8 000025 2     _f8toi4u
+                                 REL CODE    0F5EDE 000111 2     _ftol
+                                 REL CODE    0F5FF0 00004D 2     _i4divu
+                                 REL CODE    0F603E 00004B 2     _i4modu
+                                 REL CODE    0F608A 00001C 2     _i4mulu
+                                 REL CODE    0F60A6 000022 2     _i4utof8
+                                 REL CODE    0F60C8 0000D4 2     _ltof
+                                 REL CODE    0F619C 000054 2     _f8ltor
+                                 REL CODE    0F61F0 000041 2     _f8rtol
+interrupt                        REL CODE    0F6232 000000 2     ncrt0
+                                 REL CODE    0F6232 0000A7       ncrt0
+program_S                        REL CODE    0F62DA 000000 2     ncrt0
 vector                           ABS ROMDATA 0FFD00 000100       ncrt0
 fvector                          ABS ROMDATA 0FFFDC 000024       ncrt0
 # Total -------------------------------------------------------------------
-                                     DATA           000946(0002374) Byte(s)
-                                     ROMDATA        0001D3(0000467) Byte(s)
-                                     CODE           0022C6(0008902) Byte(s)
+                                     DATA           000937(0002359) Byte(s)
+                                     ROMDATA        0001C5(0000453) Byte(s)
+                                     CODE           002236(0008758) Byte(s)
 
 ##########################################
 # (3) GLOBAL LABEL INFORMATION           #
 ##########################################
-$BNSPutch          0f48a8  $DisplayString     0f4900  $LCD_write         0f495e
-$_f8ltor           0f623a  $_f8rtol           0f628e  $_ftol             0f5f7c
-$_ltof             0f6166  $calibrate         0f4ca4  $checkline         0f4db2
-$circle            0f50d6  $exit              0f6374  $figure_eight      0f51f2
-$one_eighty_turn   0f51ae  $rectangle         0f5186  _A2DInterrupt      0f4130
-_ADInit            0f40b0  _BNSPrintf         0f42f8  _DMA0Interrupt     0f413c
-_DisplayDelay      0f4a0c  _InitDisplay       0f423a  _InitPorts         0f4e4e
-_InitPorts_0       0f4e70  _InitPorts_1       0f4e92  _InitPorts_10      0f50b4
-_InitPorts_2       0f4ed4  _InitPorts_3       0f4ef6  _InitPorts_4       0f4f38
-_InitPorts_5       0f4f7a  _InitPorts_6       0f4fbc  _InitPorts_7       0f4ffe
-_InitPorts_8       0f5040  _InitPorts_9       0f507e  _KeyBoardInterru   0f416a
-_LEDDisplay        0f4a3a  _RTCInterrupt      0f4176  _TimerA1Interrup   0f415e
-_TimerA2Interrup   0f4164  _TimerA4_Init      0f5278  _TimerA4_Start     0f5294
-_TimerB0Interrup   0f417c  _TimerB0_Init      0f5224  _TimerB0_Start     0f5240
-_TimerB1Interrup   0f4192  _TimerB1_Init      0f524e  _TimerB1_Start     0f526a
-_TimerInit         0f521a  _UART0ReceiveInt   0f4142  _UART0TransmitIn   0f4136
-_WakeUpInterrupt   0f4170  _WatchDogInterru   0f41a0  __f8add            0f52a2
-__f8ge             0f5bbe  __f8mul            0f5c66  __f8sub            0f5f2e
-__f8toi4U          0f5f56  __i4Utof8          0f6144  __i4divU           0f608e
-__i4modU           0f60dc  __i4mulU           0f6128  __memt             0004b2
-__mnext            0004bc  __msize            0004c0  __pool             0004aa
-_beginning         000488  _check             000494  _delay_timer       000482
-_end               00048a  _exit              0f6374  _fixed             0004a2
-_fn_sec            000490  _init_ints         0f4218  _l_crossed         0004a6
-_l_first           0004a0  _l_forward         0f4c7e  _l_lines           00049c
-_l_off             0f4c9a  _l_reverse         0f4c8c  _l_threshold       000498
-_line              0f5126  _line_detect       0004c5  _main              0f4a3c
-_ninety_turn       0f515c  _offset            000486  _r_crossed         0004a4
-_r_first           00049e  _r_forward         0f4c58  _r_lines           00049a
-_r_off             0f4c74  _r_reverse         0f4c66  _r_threshold       000496
-_start             0004a8  _switch1_isr       0f41a6  _switch2_isr       0f41c8
-_switch3_isr       0f41ea  _switch_count      000480  _system_clock_in   0f40ec
-_threshold         0004ba  _uart2_receive_i   0f420c  _uart2_transmit_   0f4212
-_wait_time         00048c  dummy_int          0f6376  start              0f62d0
+$BNSPutch          0f4a80  $DisplayString     0f4ad8  $LCD_write         0f4b36
+$PWM               0f4e60  $_f8ltor           0f619c  $_f8rtol           0f61f0
+$_ftol             0f5ede  $_ltof             0f60c8  $calibrate         0f40de
+$exit              0f62d6  $one_eighty_turn   0f4e20  _A2DInterrupt      0f4304
+_ADInit            0f40a2  _BNSPrintf         0f44d0  _DMA0Interrupt     0f4310
+_DisplayDelay      0f4be4  _InitDisplay       0f4412  _InitPorts         0f4ef4
+_InitPorts_0       0f4f16  _InitPorts_1       0f4f38  _InitPorts_10      0f515a
+_InitPorts_2       0f4f7a  _InitPorts_3       0f4f9c  _InitPorts_4       0f4fde
+_InitPorts_5       0f5020  _InitPorts_6       0f5062  _InitPorts_7       0f50a4
+_InitPorts_8       0f50e6  _InitPorts_9       0f5124  _KeyBoardInterru   0f433e
+_RTCInterrupt      0f434a  _TimerA1Interrup   0f4332  _TimerA2Interrup   0f4338
+_TimerA4_Init      0f51da  _TimerA4_Start     0f51f6  _TimerB0Interrup   0f4350
+_TimerB0_Init      0f5186  _TimerB0_Start     0f51a2  _TimerB1Interrup   0f436a
+_TimerB1_Init      0f51b0  _TimerB1_Start     0f51cc  _TimerInit         0f517c
+_UART0ReceiveInt   0f4316  _UART0TransmitIn   0f430a  _WakeUpInterrupt   0f4344
+_WatchDogInterru   0f4378  __f8add            0f5204  __f8ge             0f5b20
+__f8mul            0f5bc8  __f8sub            0f5e90  __f8toi4U          0f5eb8
+__i4Utof8          0f60a6  __i4divU           0f5ff0  __i4modU           0f603e
+__i4mulU           0f608a  __memt             0004a6  __mnext            0004ae
+__msize            0004b2  __pool             00049e  _check             000490
+_checkline         0f41e8  _delay_timer       000482  _end               000486
+_exit              0f62d6  _fn_sec            00048c  _init_ints         0f43f0
+_l_first           00049c  _l_forward         0f4dfa  _l_lines           000498
+_l_off             0f4e16  _l_reverse         0f4e08  _l_threshold       000494
+_main              0f4c12  _r_first           00049a  _r_forward         0f4dd4
+_r_lines           000496  _r_off             0f4df0  _r_reverse         0f4de2
+_r_threshold       000492  _switch1_isr       0f437e  _switch2_isr       0f43a0
+_switch3_isr       0f43c2  _switch_count      000480  _system_clock_in   0f42c0
+_uart2_receive_i   0f43e4  _uart2_transmit_   0f43ea  _wait_time         000488
+dummy_int          0f62d8  start              0f6232  
 
 ##########################################
 # (4) GLOBAL EQU SYMBOL INFORMATION      #
@@ -218,12 +203,10 @@ __SB__           00000480
 @ Interrupts ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\Interrupts.r30 )
 @ ints ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\ints.r30 )
 @ LCD ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\LCD.r30 )
-@ led ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\led.r30 )
 @ main ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\main.r30 )
 @ motors ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\motors.r30 )
 @ oldcode ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\oldcode.r30 )
 @ ports ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\ports.r30 )
-@ shapes ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\shapes.r30 )
 @ timers ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\timers.r30 )
 @ _f8add ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\nc30lib.lib )
 @ _f8ge ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\nc30lib.lib )
@@ -249,12 +232,10 @@ __SB__           00000480
 @ Interrupts ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\Interrupts.r30 )
 @ ints ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\ints.r30 )
 @ LCD ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\LCD.r30 )
-@ led ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\led.r30 )
 @ main ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\main.r30 )
 @ motors ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\motors.r30 )
 @ oldcode ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\oldcode.r30 )
 @ ports ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\ports.r30 )
-@ shapes ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\shapes.r30 )
 @ timers ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\timers.r30 )
 @ _f8add ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\nc30lib.lib )
 @ _f8ge ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\nc30lib.lib )
@@ -280,12 +261,10 @@ __SB__           00000480
 @ Interrupts ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\Interrupts.r30 )
 @ ints ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\ints.r30 )
 @ LCD ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\LCD.r30 )
-@ led ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\led.r30 )
 @ main ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\main.r30 )
 @ motors ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\motors.r30 )
 @ oldcode ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\oldcode.r30 )
 @ ports ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\ports.r30 )
-@ shapes ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\shapes.r30 )
 @ timers ( C:\Users\Alex\HEWWorkSpace\Beefy_Bot\Beefy_Bot\Debug\timers.r30 )
 @ _f8add ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\nc30lib.lib )
 @ _f8ge ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\nc30lib.lib )
@@ -315,17 +294,17 @@ data_SO
 bss_SO
                                   00000480  00000480         0   1
 data_NE
-                                  00000480  000004b9        3a   2
+                                  00000480  000004ad        2e   2
 bss_NE
-                                  000004ba  000004c3         a   2
+                                  000004ae  000004b5         8   2
 data_NO
-                                  000004c4  000004c5         2   1
+                                  000004b6  000004b6         1   1
 bss_NO
-                                  000004c6  000004c6         0   1
+                                  000004b7  000004b7         0   1
 stack
-                                  000004c6  00000ac5       600   2
+                                  000004b8  00000ab7       600   2
 heap
-                                  00000ac6  00000dc5       300   1
+                                  00000ab8  00000db7       300   1
 rom_NE
                                   0000f000  0000f000         0   1
 rom_NO
@@ -333,21 +312,21 @@ rom_NO
 rom_FE
                                   000f4000  000f4000         0   1
 rom_FO
-                                  000f4000  000f4072        73   1
+                                  000f4000  000f4071        72   1
 data_SEI
-                                  000f4074  000f4074         0   2
+                                  000f4072  000f4072         0   2
 data_SOI
-                                  000f4074  000f4074         0   1
+                                  000f4072  000f4072         0   1
 data_NEI
-                                  000f4074  000f40ad        3a   2
+                                  000f4072  000f409f        2e   2
 data_NOI
-                                  000f40ae  000f40af         2   1
+                                  000f40a0  000f40a0         1   1
 program
-                                  000f40b0  000f62ce      221f   2
+                                  000f40a2  000f6230      218f   2
 interrupt
-                                  000f62d0  000f6376        a7   2
+                                  000f6232  000f62d8        a7   2
 program_S
-                                  000f6378  000f6378         0   2
+                                  000f62da  000f62da         0   2
 vector
                                   000ffd00  000ffdff       100   1
 fvector
@@ -367,290 +346,254 @@ FILE=ncrt0
 
 SECTION=data_NE
 FILE=C:/Users/Alex/HEWWorkSpace/Beefy_Bot/Beefy_Bot/main
-                                  00000480  000004a9        2a
+                                  00000480  0000049d        1e
   _switch_count
                                   00000480         2   data ,g         0
   _delay_timer
                                   00000482         4   data ,g         0
   _wait_time
-                                  0000048c         4   data ,g         0
+                                  00000488         4   data ,g         0
   _fn_sec
-                                  00000490         4   data ,g         0
-  _beginning
-                                  00000488         2   data ,g         0
-  _start
-                                  000004a8         2   data ,g         0
-  _offset
-                                  00000486         2   data ,g         0
+                                  0000048c         4   data ,g         0
   _check
-                                  00000494         2   data ,g         0
+                                  00000490         2   data ,g         0
   _r_threshold
-                                  00000496         2   data ,g         0
+                                  00000492         2   data ,g         0
   _l_threshold
-                                  00000498         2   data ,g         0
+                                  00000494         2   data ,g         0
   _r_lines
-                                  0000049a         2   data ,g         0
+                                  00000496         2   data ,g         0
   _l_lines
-                                  0000049c         2   data ,g         0
-  _fixed
-                                  000004a2         2   data ,g         0
-  _r_crossed
-                                  000004a4         2   data ,g         0
-  _l_crossed
-                                  000004a6         2   data ,g         0
+                                  00000498         2   data ,g         0
   _r_first
-                                  0000049e         2   data ,g         0
+                                  0000049a         2   data ,g         0
   _l_first
-                                  000004a0         2   data ,g         0
+                                  0000049c         2   data ,g         0
   _end
-                                  0000048a         2   data ,g         0
+                                  00000486         2   data ,g         0
 
 FILE=mdata
-                                  000004aa  000004b9        10
+                                  0000049e  000004ad        10
   __memt
-                                  000004b2         0   none ,g         0
+                                  000004a6         0   none ,g         0
   __pool
-                                  000004aa         0   none ,g         0
+                                  0000049e         0   none ,g         0
 
 SECTION=bss_NE
-FILE=C:/Users/Alex/HEWWorkSpace/Beefy_Bot/Beefy_Bot/main
-                                  000004ba  000004bb         2
-  _threshold
-                                  000004ba         2   data ,g         0
+FILE=ncrt0
+                                  000004ae  000004ae         0
+  __mnext
+                                  000004ae         0   none ,g         0
 
 FILE=mdata
-                                  000004bc  000004c3         8
-  __mnext
-                                  000004bc         0   none ,g         0
+                                  000004ae  000004b5         8
   __msize
-                                  000004c0         0   none ,g         0
-
-SECTION=data_NO
-FILE=C:/Users/Alex/HEWWorkSpace/Beefy_Bot/Beefy_Bot/main
-                                  000004c5  000004c5         1
-  _line_detect
-                                  000004c5         1   data ,g         0
+                                  000004b2         0   none ,g         0
 
 SECTION=program
 FILE=C:/Users/Alex/HEWWorkSpace/Beefy_Bot/Beefy_Bot/adc
-                                  000f40b0  000f40eb        3c
+                                  000f40a2  000f42bf       21e
   _ADInit
-                                  000f40b0        3c   func ,g         0
+                                  000f40a2        3c   func ,g         0
+  $calibrate
+                                  000f40de       109   func ,g         0
 
 FILE=C:/Users/Alex/HEWWorkSpace/Beefy_Bot/Beefy_Bot/clocks
-                                  000f40ec  000f412f        44
+                                  000f42c0  000f4303        44
   _system_clock_init
-                                  000f40ec        44   func ,g         0
+                                  000f42c0        44   func ,g         0
 
 FILE=C:/Users/Alex/HEWWorkSpace/Beefy_Bot/Beefy_Bot/Interrupts
-                                  000f4130  000f4216        e7
+                                  000f4304  000f43ee        eb
   _A2DInterrupt
-                                  000f4130         5   func ,g         0
+                                  000f4304         5   func ,g         0
   _UART0TransmitInterrupt
-                                  000f4136         6   func ,g         0
+                                  000f430a         6   func ,g         0
   _DMA0Interrupt
-                                  000f413c         6   func ,g         0
+                                  000f4310         6   func ,g         0
   _UART0ReceiveInterrupt
-                                  000f4142        1d   func ,g         0
+                                  000f4316        1d   func ,g         0
   _TimerA1Interrupt
-                                  000f415e         5   func ,g         0
+                                  000f4332         5   func ,g         0
   _TimerA2Interrupt
-                                  000f4164         6   func ,g         0
+                                  000f4338         6   func ,g         0
   _KeyBoardInterrupt
-                                  000f416a         6   func ,g         0
+                                  000f433e         6   func ,g         0
   _WakeUpInterrupt
-                                  000f4170         6   func ,g         0
+                                  000f4344         6   func ,g         0
   _RTCInterrupt
-                                  000f4176         6   func ,g         0
+                                  000f434a         6   func ,g         0
   _TimerB0Interrupt
-                                  000f417c        16   func ,g         0
+                                  000f4350        1a   func ,g         0
   _TimerB1Interrupt
-                                  000f4192         e   func ,g         0
+                                  000f436a         e   func ,g         0
   _WatchDogInterrupt
-                                  000f41a0         6   func ,g         0
+                                  000f4378         6   func ,g         0
   _switch1_isr
-                                  000f41a6        23   func ,g         0
+                                  000f437e        23   func ,g         0
   _switch2_isr
-                                  000f41c8        22   func ,g         0
+                                  000f43a0        22   func ,g         0
   _switch3_isr
-                                  000f41ea        22   func ,g         0
+                                  000f43c2        22   func ,g         0
   _uart2_receive_isr
-                                  000f420c         5   func ,g         0
+                                  000f43e4         5   func ,g         0
 
 FILE=C:/Users/Alex/HEWWorkSpace/Beefy_Bot/Beefy_Bot/ints
-                                  000f4218  000f4238        21
+                                  000f43f0  000f4410        21
   _init_ints
-                                  000f4218        21   func ,g         0
+                                  000f43f0        21   func ,g         0
 
 FILE=C:/Users/Alex/HEWWorkSpace/Beefy_Bot/Beefy_Bot/LCD
-                                  000f423a  000f4a39       800
+                                  000f4412  000f4c11       800
   _InitDisplay
-                                  000f423a        bd   func ,g         0
+                                  000f4412        bd   func ,g         0
   _BNSPrintf
-                                  000f42f8       5b0   func ,g         0
+                                  000f44d0       5b0   func ,g         0
   $BNSPutch
-                                  000f48a8        58   func ,g         0
+                                  000f4a80        58   func ,g         0
   $DisplayString
-                                  000f4900        5f   func ,g         0
+                                  000f4ad8        5f   func ,g         0
   $LCD_write
-                                  000f495e        ae   func ,g         0
+                                  000f4b36        ae   func ,g         0
   _DisplayDelay
-                                  000f4a0c        2e   func ,g         0
-
-FILE=C:/Users/Alex/HEWWorkSpace/Beefy_Bot/Beefy_Bot/led
-                                  000f4a3a  000f4a3a         1
-  _LEDDisplay
-                                  000f4a3a         1   func ,g         0
+                                  000f4be4        2e   func ,g         0
 
 FILE=C:/Users/Alex/HEWWorkSpace/Beefy_Bot/Beefy_Bot/main
-                                  000f4a3c  000f4c57       21c
+                                  000f4c12  000f4dd3       1c2
   _main
-                                  000f4a3c       21c   func ,g         0
+                                  000f4c12       1c2   func ,g         0
 
 FILE=C:/Users/Alex/HEWWorkSpace/Beefy_Bot/Beefy_Bot/motors
-                                  000f4c58  000f4e4c       1f5
+                                  000f4dd4  000f4ef3       120
   _r_forward
-                                  000f4c58         e   func ,g         0
+                                  000f4dd4         e   func ,g         0
   _r_reverse
-                                  000f4c66         e   func ,g         0
+                                  000f4de2         e   func ,g         0
   _r_off
-                                  000f4c74         9   func ,g         0
+                                  000f4df0         9   func ,g         0
   _l_forward
-                                  000f4c7e         f   func ,g         0
+                                  000f4dfa         f   func ,g         0
   _l_reverse
-                                  000f4c8c         e   func ,g         0
+                                  000f4e08         e   func ,g         0
   _l_off
-                                  000f4c9a         9   func ,g         0
-  $calibrate
-                                  000f4ca4       10e   func ,g         0
+                                  000f4e16         9   func ,g         0
+  $one_eighty_turn
+                                  000f4e20        40   func ,g         0
 
 FILE=ports
-                                  000f4e4e  000f50d4       287
+                                  000f4ef4  000f517a       287
   _InitPorts
-                                  000f4e4e        22   func ,g         0
+                                  000f4ef4        22   func ,g         0
   _InitPorts_0
-                                  000f4e70        21   func ,g         0
+                                  000f4f16        21   func ,g         0
   _InitPorts_1
-                                  000f4e92        42   func ,g         0
-  _InitPorts_2
-                                  000f4ed4        22   func ,g         0
-  _InitPorts_3
-                                  000f4ef6        42   func ,g         0
-  _InitPorts_4
                                   000f4f38        42   func ,g         0
+  _InitPorts_2
+                                  000f4f7a        22   func ,g         0
+  _InitPorts_3
+                                  000f4f9c        42   func ,g         0
+  _InitPorts_4
+                                  000f4fde        42   func ,g         0
   _InitPorts_5
-                                  000f4f7a        42   func ,g         0
+                                  000f5020        42   func ,g         0
   _InitPorts_6
-                                  000f4fbc        42   func ,g         0
+                                  000f5062        42   func ,g         0
   _InitPorts_7
-                                  000f4ffe        42   func ,g         0
+                                  000f50a4        42   func ,g         0
   _InitPorts_8
-                                  000f5040        3e   func ,g         0
+                                  000f50e6        3e   func ,g         0
   _InitPorts_9
-                                  000f507e        36   func ,g         0
-
-FILE=shapes
-                                  000f50d6  000f5219       144
-  $circle
-                                  000f50d6        50   func ,g         0
-  _line
-                                  000f5126        35   func ,g         0
-  _ninety_turn
-                                  000f515c        2a   func ,g         0
-  $rectangle
-                                  000f5186        28   func ,g         0
-  $one_eighty_turn
-                                  000f51ae        44   func ,g         0
+                                  000f5124        36   func ,g         0
 
 FILE=timers
-                                  000f521a  000f52a0        87
+                                  000f517c  000f5202        87
   _TimerInit
-                                  000f521a         a   func ,g         0
+                                  000f517c         a   func ,g         0
   _TimerB0_Init
-                                  000f5224        1b   func ,g         0
+                                  000f5186        1b   func ,g         0
   _TimerB0_Start
-                                  000f5240         e   func ,g         0
+                                  000f51a2         e   func ,g         0
   _TimerB1_Init
-                                  000f524e        1c   func ,g         0
+                                  000f51b0        1c   func ,g         0
   _TimerB1_Start
-                                  000f526a         e   func ,g         0
+                                  000f51cc         e   func ,g         0
   _TimerA4_Init
-                                  000f5278        1d   func ,g         0
+                                  000f51da        1d   func ,g         0
   _TimerA4_Start
-                                  000f5294         d   func ,g         0
+                                  000f51f6         d   func ,g         0
 
 FILE=_f8add
-                                  000f52a2  000f5bbc       91b
+                                  000f5204  000f5b1e       91b
   __f8add
-                                  000f52a2       6dd   func ,g         0
+                                  000f5204       6dd   func ,g         0
 
 FILE=_f8ge
-                                  000f5bbe  000f5c64        a7
+                                  000f5b20  000f5bc6        a7
   __f8ge
-                                  000f5bbe        a7   func ,g         0
+                                  000f5b20        a7   func ,g         0
 
 FILE=_f8mul
-                                  000f5c66  000f5f2c       2c7
+                                  000f5bc8  000f5e8e       2c7
   __f8mul
-                                  000f5c66       2c7   func ,g         0
+                                  000f5bc8       2c7   func ,g         0
 
 FILE=_f8sub
-                                  000f5f2e  000f5f55        28
+                                  000f5e90  000f5eb7        28
   __f8sub
-                                  000f5f2e        28   func ,g         0
+                                  000f5e90        28   func ,g         0
 
 FILE=_f8toi4u
-                                  000f5f56  000f5f7a        25
+                                  000f5eb8  000f5edc        25
   __f8toi4U
-                                  000f5f56        25   func ,g         0
+                                  000f5eb8        25   func ,g         0
 
 FILE=_ftol
-                                  000f5f7c  000f608c       111
+                                  000f5ede  000f5fee       111
   $_ftol
-                                  000f5f7c       111   func ,g         0
+                                  000f5ede       111   func ,g         0
 
 FILE=_i4divu
-                                  000f608e  000f60da        4d
+                                  000f5ff0  000f603c        4d
   __i4divU
-                                  000f608e        4d   func ,g         0
+                                  000f5ff0        4d   func ,g         0
 
 FILE=_i4modu
-                                  000f60dc  000f6126        4b
+                                  000f603e  000f6088        4b
   __i4modU
-                                  000f60dc        4b   func ,g         0
+                                  000f603e        4b   func ,g         0
 
 FILE=_i4mulu
-                                  000f6128  000f6143        1c
+                                  000f608a  000f60a5        1c
   __i4mulU
-                                  000f6128        1c   func ,g         0
+                                  000f608a        1c   func ,g         0
 
 FILE=_i4utof8
-                                  000f6144  000f6165        22
+                                  000f60a6  000f60c7        22
   __i4Utof8
-                                  000f6144        22   func ,g         0
+                                  000f60a6        22   func ,g         0
 
 FILE=_ltof
-                                  000f6166  000f6239        d4
+                                  000f60c8  000f619b        d4
   $_ltof
-                                  000f6166        d4   func ,g         0
+                                  000f60c8        d4   func ,g         0
 
 FILE=_f8ltor
-                                  000f623a  000f628d        54
+                                  000f619c  000f61ef        54
   $_f8ltor
-                                  000f623a        54   func ,g         0
+                                  000f619c        54   func ,g         0
 
 FILE=_f8rtol
-                                  000f628e  000f62ce        41
+                                  000f61f0  000f6230        41
   $_f8rtol
-                                  000f628e        41   func ,g         0
+                                  000f61f0        41   func ,g         0
 
 SECTION=interrupt
 FILE=ncrt0
-                                  000f62d0  000f6376        a7
+                                  000f6232  000f62d8        a7
   $exit
-                                  000f6374         0   none ,g         0
+                                  000f62d6         0   none ,g         0
   _exit
-                                  000f6374         0   none ,g         0
+                                  000f62d6         0   none ,g         0
   dummy_int
-                                  000f6376         0   none ,g         0
+                                  000f62d8         0   none ,g         0
 

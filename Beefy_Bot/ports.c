@@ -9,8 +9,14 @@
 #include "proto.h"
 #include "extern.h"
 
-//This funcition initializes all ports on the board
-void InitPorts(void){
+
+void InitPorts(void)
+//-----------------------------------------------------------------------------------------------------
+//  Purpose:	Initializes all ports on the board
+//  Rev:    1.0     Initial Release
+//  Notes:          None    
+//-----------------------------------------------------------------------------------------------------
+{
 	InitPorts_0();
 	InitPorts_1();
 	InitPorts_2();
@@ -24,8 +30,13 @@ void InitPorts(void){
 	InitPorts_10();
 }
 
-//This function initializes all pins on port 0
-void InitPorts_0(void){
+void InitPorts_0(void)
+//-----------------------------------------------------------------------------------------------------
+//  Purpose:	Initializes all pins on Port 0
+//  Rev:    1.0     Initial Release
+//  Notes:          None    
+//-----------------------------------------------------------------------------------------------------
+{
 	p0_0 = OFF;
 	p0_1 = OFF;
 	p0_2 = OFF;
@@ -46,8 +57,13 @@ void InitPorts_0(void){
 	pd0_7 = INPUT;*/	
 }
 
-//This function initializes all pins on port 1
-void InitPorts_1(void){
+void InitPorts_1(void)
+//-----------------------------------------------------------------------------------------------------
+//  Purpose:	Initializes all pins on Port 1
+//  Rev:    1.0     Initial Release
+//  Notes:          None    
+//-----------------------------------------------------------------------------------------------------
+{
 	p1_0 = OFF;
 	p1_1 = OFF;
 	p1_2 = OFF;
@@ -67,8 +83,13 @@ void InitPorts_1(void){
 	pd1_7 = OUTPUT;	
 }
 
-//This function initializes all pins on port 2
-void InitPorts_2(void){
+void InitPorts_2(void)
+//-----------------------------------------------------------------------------------------------------
+//  Purpose:	Initializes all pins on Port 0
+//  Rev:    1.0     Initial Release
+//  Notes:          None    
+//-----------------------------------------------------------------------------------------------------
+{
 /*	p2_0 = OFF;
 	p2_1 = OFF;
 	p2_2 = OFF;
@@ -89,8 +110,13 @@ void InitPorts_2(void){
 	pd2_7 = INPUT;	
 }
 
-//This function initializes all pins on port 3
-void InitPorts_3(void){
+void InitPorts_3(void)
+//-----------------------------------------------------------------------------------------------------
+//  Purpose:	Initializes all pins on Port 3
+//  Rev:    1.0     Initial Release
+//  Notes:          None    
+//-----------------------------------------------------------------------------------------------------
+{
 	R_FORWARD = OFF;
 	R_REVERSE = OFF;
 	L_FORWARD = OFF;
@@ -110,8 +136,13 @@ void InitPorts_3(void){
 	pd3_7 = OUTPUT;	
 }
 
-//This function initializes all pins on port 4
-void InitPorts_4(void){
+void InitPorts_4(void)
+//-----------------------------------------------------------------------------------------------------
+//  Purpose:	Initializes all pins on Port 4
+//  Rev:    1.0     Initial Release
+//  Notes:          None    
+//-----------------------------------------------------------------------------------------------------
+{
 	p4_0 = OFF;
 	p4_1 = OFF;
 	p4_2 = OFF;
@@ -131,8 +162,13 @@ void InitPorts_4(void){
 	pd4_7 = OUTPUT;	
 }
 
-//This function initializes all pins on port 5
-void InitPorts_5(void){
+void InitPorts_5(void)
+//-----------------------------------------------------------------------------------------------------
+//  Purpose:	Initializes all pins on Port 5
+//  Rev:    1.0     Initial Release
+//  Notes:          None    
+//-----------------------------------------------------------------------------------------------------
+{
 	p5_0 = OFF;
 	p5_1 = OFF;
 	p5_2 = OFF;
@@ -152,8 +188,13 @@ void InitPorts_5(void){
 	pd5_7 = OUTPUT;	
 }
 
-//This function initializes all pins on port 6
-void InitPorts_6(void){
+void InitPorts_6(void)
+//-----------------------------------------------------------------------------------------------------
+//  Purpose:	Initializes all pins on Port 6
+//  Rev:    1.0     Initial Release
+//  Notes:          None    
+//-----------------------------------------------------------------------------------------------------
+{
 	p6_0 = OFF;
 	p6_1 = OFF;
 	p6_2 = OFF;
@@ -173,8 +214,13 @@ void InitPorts_6(void){
 	pd6_7 = OUTPUT;
 }		
 
-//This function initializes all pins on port 7
-void InitPorts_7(void){
+void InitPorts_7(void)
+//-----------------------------------------------------------------------------------------------------
+//  Purpose:	Initializes all pins on Port 7
+//  Rev:    1.0     Initial Release
+//  Notes:          None    
+//-----------------------------------------------------------------------------------------------------
+{
 	p7_0 = OFF;
 	p7_1 = OFF;
 	p7_2 = OFF;
@@ -194,8 +240,13 @@ void InitPorts_7(void){
 	pd7_7 = OUTPUT;
 }
 
-//This function initializes all pins on port 8
-void InitPorts_8(void){
+void InitPorts_8(void)
+//-----------------------------------------------------------------------------------------------------
+//  Purpose:	Initializes all pins on Port 8
+//  Rev:    1.0     Initial Release
+//  Notes:          None    
+//-----------------------------------------------------------------------------------------------------
+{
 	p8_0 = OFF;
 	p8_1 = OFF;
 	p8_2 = OFF;
@@ -215,8 +266,13 @@ void InitPorts_8(void){
 	pd8_7 = OUTPUT;
 }
 
-//This function initializes all pins on port 9
-void InitPorts_9(void){
+void InitPorts_9(void)
+//-----------------------------------------------------------------------------------------------------
+//  Purpose:	Initializes all pins on Port 9
+//  Rev:    1.0     Initial Release
+//  Notes:          None    
+//-----------------------------------------------------------------------------------------------------
+{
 	p9_0 = OFF;
 	p9_1 = OFF;
 	p9_2 = OFF;
@@ -237,8 +293,13 @@ void InitPorts_9(void){
 	pd9_7 = INPUT;
 }
 
-//This function initializes all pins on port 10
-void InitPorts_10(void){
+void InitPorts_10(void)
+//-----------------------------------------------------------------------------------------------------
+//  Purpose:	Initializes all pins on Port 10
+//  Rev:    1.0     Initial Release
+//  Notes:          None    
+//-----------------------------------------------------------------------------------------------------
+{
 /*	p10_0 = OFF;
 	p10_1 = OFF;
 	p10_2 = OFF;

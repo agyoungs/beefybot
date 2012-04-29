@@ -63,8 +63,6 @@
 #define AVERAGE	2
 #define LIMIT	3
 
-#define SAFETY_NET	30
-
 #define ENABLE_IRQ   	{_asm(" FSET I");}
 #define DISABLE_IRQ		{_asm(" FCLR I");}
 
@@ -100,32 +98,32 @@
 #define INPUT 0;
 
 /* Switches */
-#define	S1 				p8_3 
-#define S2 				p8_1 
-#define S3 				p8_2 
-#define S1_DDR			pd8_3
-#define S2_DDR			pd8_1
-#define S3_DDR			pd8_2
+#define	S1 						p8_3 
+#define S2 						p8_1 
+#define S3 						p8_2 
+#define S1_DDR					pd8_3
+#define S2_DDR					pd8_1
+#define S3_DDR					pd8_2
 
 /* LEDs */
-#define	LED0			p8_0
-#define	LED1			p7_4
-#define	LED2			p7_2
+#define	LED0					p8_0
+#define	LED1						p7_4
+#define	LED2					p7_2
 
-#define	LED0_DDR 		pd8_0		// LED port direction register
-#define	LED1_DDR 		pd7_4
-#define	LED2_DDR 		pd7_2
+#define	LED0_DDR 				pd8_0		// LED port direction register
+#define	LED1_DDR 				pd7_4
+#define	LED2_DDR 				pd7_2
 
 
-#define LED_ON      	0
-#define LED_OFF     	1
+#define LED_ON      			0
+#define LED_OFF     			1
 
-#define FALLING_EDGE	0
+#define FALLING_EDGE			0
 
-#define FORWARD			0
-#define BACKWARD		1
+#define FORWARD					0
+#define BACKWARD				1
 
-#define ONE_SEC			200
+
 
 // Use these macros for switch inputs. 
 #define ENABLE_SWITCHES {S1_DDR = 0; S2_DDR = 0; S3_DDR = 0;}
@@ -139,24 +137,27 @@
 //port 1
 //port 2
 //port 3
-#define R_REVERSE		p3_0
-#define	R_FORWARD		p3_1
-#define L_FORWARD		p3_2
-#define L_REVERSE		p3_3
-#define GPS_PWRCNTL		p3_4
-#define GPS_RESET_IN	p3_5
-#define GPS_PWR			p3_6
-#define IR_LED			p3_7
-
-#define BRIGHTNESS_R	p10_3
-#define BRIGHTNESS_L	p10_2
+#define R_REVERSE				p3_0
+#define	R_FORWARD				p3_1
+#define L_FORWARD				p3_2
+#define L_REVERSE				p3_3
+#define GPS_PWRCNTL				p3_4
+#define GPS_RESET_IN			p3_5
+#define GPS_PWR					p3_6
+#define IR_LED					p3_7
 
 //port 4
 //port 5
 //port 6
 //port 7
-#define CPU_TXD2		p7_0
-#define CPU_RXD2		p7_1
+#define CPU_TXD2				p7_0
+#define CPU_RXD2				p7_1
+
+//port 8
+//port 9
+//port 10
+#define BRIGHTNESS_R			p10_3
+#define BRIGHTNESS_L			p10_2
 
 //timers
 #define CLEAR_REGISTER        	(0x00) // Clear Register
@@ -169,7 +170,7 @@
 #define SRC_F32               	(0x80) //  clock source f32
 #define SRC_FC32            	(0xC0) //  clock source fC32
 #define SELF_SELECT_AIN			(0x00) //  Self Select A timer
-#define DESIRED_TIME_US			(0x05) //  200 us
+#define DESIRED_TIME_US			(0x32) //  200 us
 
 //ADC
 //Control Register 0
@@ -191,36 +192,40 @@
 #define SWEEP_AN0_AN7			(0x03) //AN0 to AN7 in Repeat Sweep mode
 
 //Clocks
-#define CLOCK_LIMIT	40000
-#define DIVIDE_RATIO	0
-#define WAITTW0		1
-#define PLL_2_ON	(0x92)
-#define	SWITCH_TO_PLL	1
-#define CM16_17_RATIO (0x20)
-#define DECREMENT	1
+#define CLOCK_LIMIT				40000
+#define DIVIDE_RATIO			0
+#define WAITTW0					1
+#define PLL_2_ON				(0x92)
+#define	SWITCH_TO_PLL			1
+#define CM16_17_RATIO 			(0x20)
+#define DECREMENT				1
 
 //timers
-#define SOURCE_32	32
-#define MILLISECONDS 1000
-#define MICROSECONDS 100000
+#define SOURCE_32				32
+#define MILLISECONDS 			1000
+#define MICROSECONDS 			100000
+#define PRIORITY_L_3			3
+#define ONE_LAP_TIME			6000
+#define TWO_LAP_TIME			2*ONE_LAP_TIME
 
-#define PRIORITY_L_3	3
 
-//menus
-#define RESISTORS 103
-#define SHAPES 103
-#define SONG 44
+//IR detectors
+#define R_DETECTOR 				1
+#define L_DETECTOR 				-1
+#define RIGHT_VALUE				0
+#define LEFT_VALUE				1
+#define TWO_VALUES				2
+#define OFF_RIGHT				-1
+#define	OFF_LEFT				1
+#define BLACK_LINE				0
+#define OFFSET					1
+#define LOW_VALUE				1000
+#define TWO_SECS				400
 
-#define SHIGH 23
-#define LOW 0
-#define UNDER 22
-#define ABOVE 1
+//PWM Timer
+#define PWM_TICS				10
+#define SHORT_TIME				10
 
-#define SIZE 10
-#define LENGTH 47
-#define LIMIT_A 24
-
-#define R_DETECTOR 1
-#define L_DETECTOR -1
-
-#define HUNDRED 100
+//Motors
+#define ONE_EIGHTY_COUNT		1000000
+#define ONCE					1
